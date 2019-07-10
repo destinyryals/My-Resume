@@ -174,20 +174,28 @@
       padding-bottom: 3rem !important;
     }
   }
-  
-  .bg-primary {
-    background-color: #1d1919 !important;
-  }
-  
-  .text-primary {
-    color: #24c0b8 !important;
-  }
-  
-  a {
-    color: #24c0b8;
-  }
-  
-  a:hover, a:focus, a:active {
-    color: #000000;
-  }
-  
+
+.bg-primary {
+  background-color: #1d1919 !important;
+}
+
+.text-primary {
+  color: #24c0b8 !important;
+}
+
+a {
+  color: #24c0b8;
+}
+
+a:hover, a:focus, a:active {
+  color: #000000;
+
+
+}
+.carousel-inner > .item > img {
+  margin: 0 auto;
+}
+
+h2 {
+text-align: center
+}
