@@ -148,6 +148,11 @@
       display: block;
     }
   }
+
+  #profile-image {
+    bottom: 153%;
+    position: relative;
+  }
   
   section.resume-section {
     padding-top: 5rem !important;
@@ -198,4 +203,21 @@ a:hover, a:focus, a:active {
 
 h2 {
 text-align: center
+}
+
+
+#bucketlist{
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px solid cyan;
+  padding: 50px;
+  margin: 20px;
+}
+
+#favorites{
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px solid cyan;
+  padding: 50px;
+  margin: 20px;
 }
