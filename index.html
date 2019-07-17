@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Code Differently - Bootstrap Resume Theme</title>
 
     <!-- Bootstrap core CSS -->
@@ -333,24 +333,38 @@
         <div class="w-100">
             <h2>Favorites</h2>
 
-            <h3>Movies</h3>
-            <ul>
-                <li>The Girl Next Door</li>
-                <li>Love and Basketball</li>
-                <li>Daddy's Home</li>
-            </ul>
-            <h3>Food</h3>
-            <ul>
-                <li>Fried Chicken</li>
-                <li>Baked Mac and Cheese</li>
-                <li>Fries</li>
-            </ul>
-            <h3>Colors</h3>
-            <ul>
-                <li>Blue</li>
-                <li>Gold</li>
-                <li>Yellow</li>
-            </ul>
+
+<ul id= favmovies>
+    <li><h3>Movies</h3></li>
+  <li id=li1>The Girl Next Door<span class="close">&times;</span></li>
+  <li id=li2>Love and Basketball<span class="close">&times;</span></li>
+  <li id=li3>Daddy's Home<span class="close">&times;</span></li>
+  </ul>
+
+  <ul id=favfoods>
+  <li><h3>Foods</h3></li>
+  <li id=li11>Fried Chicken<span class="close">&times;</span></li>
+  <li id=li22>Baked Mac and Cheese<span class="close">&times;</span></li>
+  <li id=li33>Fries<span class="close">&times;</span></li>
+  </ul>
+
+  <ul id=favcolors>
+    <li><h3>Colors</h3></li>
+  <li id=li111>Blue<span class="close">&times;</span></li>
+  <li id=li222>Yellow<span class="close">&times;</span></li>
+  <li id=li333>Gold<span class="close">&times;</span></li>
+</ul>
+
+<script>
+var closebtns = document.getElementsByClassName("close");
+var i;
+
+for (i = 0; i < closebtns.length; i++) {
+  closebtns[i].addEventListener("click", function() {
+    this.parentElement.style.display = 'none';
+  });
+}
+</script>
         </div>
     </section>
 

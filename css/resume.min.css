@@ -26,7 +26,7 @@
     font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
     font-weight: 700;
     text-transform: uppercase;
-    color: #24c0b8;
+    color: cyan;
   }
   
   h1 {
@@ -58,7 +58,7 @@
     display: inline-block;
     height: 3.5rem;
     width: 3.5rem;
-    background-color: #24c0b8;
+    background-color:cyan;
     color: #fff !important;
     border-radius: 100%;
     text-align: center;
@@ -80,7 +80,7 @@
   }
   
   .dev-icons .list-inline-item i:hover {
-    color: #24c0b8;
+    color: cyan;
   }
   
   #sideNav .navbar-nav .nav-item .nav-link {
@@ -90,7 +90,7 @@
   }
   
   #sideNav .navbar-toggler:focus {
-    outline-color: #24c0b8;
+    outline-color: cyan;
   }
   
   @media (min-width: 992px) {
@@ -119,7 +119,7 @@
     #sideNav .navbar-brand .img-profile {
       max-width: 10rem;
       max-height: 10rem;
-      border: 0.5rem solid rgba(41, 194, 199, 0.904);
+      border: 0.5rem solid cyan;
     }
     #sideNav .navbar-collapse {
       display: -webkit-box;
@@ -185,11 +185,11 @@
 }
 
 .text-primary {
-  color: #24c0b8 !important;
+  color: cyan !important;
 }
 
 a {
-  color: #24c0b8;
+  color: cyan;
 }
 
 a:hover, a:focus, a:active {
@@ -221,3 +221,62 @@ text-align: center
   padding: 50px;
   margin: 20px;
 }
+* {
+  box-sizing: border-box;
+}
+
+#favmovies,#favfoods,#favcolors {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#favmovies,#favfoods,#favcolors, #li1, #li2, #li3, #li11, #li22, #li33, #li111, #li222, #li333 {
+  border: 2px solid lightgrey;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: lightgrey;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block;
+  position: relative;
+}
+#li1:hover {
+  background-color: cyan;
+}
+#li2:hover {
+  background-color: cyan;
+}
+#li3:hover {
+  background-color: cyan;
+}
+#li11:hover {
+  background-color: cyan;
+}
+#li22:hover {
+  background-color: cyan;
+}
+#li33:hover {
+  background-color: cyan;
+}
+#li111:hover {
+  background-color: cyan;
+}
+#li222:hover {
+  background-color: cyan;
+}
+#li333:hover {
+  background-color: cyan;
+}
+
+.close {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  padding: 12px 16px;
+  transform: translate(0%, -50%);
+}
+
+.close:hover {background: #bbb;}
